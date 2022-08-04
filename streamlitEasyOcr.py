@@ -108,7 +108,7 @@ if picture is not None:
     # function application
     im = Image.open(picture)
     array = picToArray(picture)
-    bounds = EasyOCR(array, Lang, batch_size, min_size, decoder, beamWidth)
+    bounds = EasyOCR(array, Lang, batch_size, min_size, beamWidth)
 
     pic = draw_boxes(im, bounds)
     
