@@ -43,7 +43,7 @@ picture = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
 if picture is not None:
     
     @st.cache(suppress_st_warning=True)
-    def EasyOCR(picture, Lang, batch_size, min_size, decoder, beamWidth):
+    def EasyOCR(picture, Lang, batch_size, min_size, beamWidth):
         # instanciation function easyOcr
         reader = easyocr.Reader([Lang])
         # Doing OCR. Get bounding boxes.
