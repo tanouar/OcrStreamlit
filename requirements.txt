@@ -1,5 +1,7 @@
-easyocr==1.5.0
 streamlit
+easyocr
 pandas
 Pillow
-numpy
+numpy<2
+opencv-python
+opencv-python-headlessy
