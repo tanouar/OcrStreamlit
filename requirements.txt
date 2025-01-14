@@ -4,4 +4,3 @@ pandas
 Pillow
 numpy<2
 opencv-python
-opencv-python-headlessy
